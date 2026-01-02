@@ -3,7 +3,7 @@
 #Division method
 
 
-'''def hcf(a,b):
+def hcf(a,b):
 
     while b!=0:
         a,b=b, a%b
@@ -13,7 +13,7 @@
 
 a=int(input('Enter low number'))
 b=int(input('Enter high number'))
-print("The HCF is",hcf(a,b))'''
+print("The HCF is",hcf(a,b))
 
 #JENSHI method
 
