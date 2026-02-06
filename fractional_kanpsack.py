@@ -8,10 +8,9 @@ for i in range(n):
 
 capacity = int(input("Enter knapsack capacity: "))
 
-# Sort by value/weight ratio (descending)
 items.sort(key=lambda x: x[0] / x[1], reverse=True)
 
-total_value = 0
+total_value = 0 
 
 for v, w in items:
     if capacity >= w:
@@ -22,3 +21,4 @@ for v, w in items:
         break
 
 print("Maximum value:", total_value)
+
