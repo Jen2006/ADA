@@ -1,3 +1,4 @@
+
 def coin_row(c):
     n=len(c)
 
